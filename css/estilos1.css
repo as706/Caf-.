@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+	body{
+	background-image: liner-gradient(225deg, #c133ff, #b7e8de ,#7e7cb0 100%);
+	font-family: Broadway;
+	font-size: 25px;
+	}
+	.contenedor-principal{
+	background-color: #f0d8ee;
+	width: 90%;
+	max-width: 1300px;
+	margin: 50px auto;
+	padding: 50px;
+	border-radius: 15px;
+	}
+	header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+	}
+	.logos{
+	font-size: 40px;
+	font-weight: 800;
+	color: #e21273;
+	text-decoration: none;
+	}
+	.menu{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	}
+	.menu a{
+	font-size: 25px;
+	border-bottom: 2px solid transparent;
+	margin-left: 40px;
+	color: #c68fdd;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	}
+	.menu a:hover {
+	border-bottom: 2px solid #d5a8d6;
+	color: #f5680af1;
+	}
+	main{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	}
+	main.contenedor-imge{
+	width: 30%;
+	margin-right: 50px;
+	}
+	img{
+	height: 300px;
+	width: 280px;
+	border-radius: 15px;
+	margin-right: 20px;
+	}
+	.contenedor-texto .titulo{
+	font-size:45px ;
+	font-weight: normal;
+	margin-bottom: 40px;
+	}
+	.contenedor-texto p{
+	margin: bottom:40px ;
+	line-height: 35px;
+	font-size: 20px;
+	}
+	.contenedor-texto .cafe{
+	font-weight: bold ;
+	color: #161616;
+	font-style: normal;
+	}
+	.btn_link {
+	display: inline-block;
+	padding: 20px 40px;
+	border-radius: 100px;
+	background: #38e60c;
+	margin-right: 15px;
+	text-decoration: none;
+	color: #101110;
+	}
+	.btn_link: hover,
+	.btn_link activo{
+	color: while;
+	background: #212f3d;
+	}
