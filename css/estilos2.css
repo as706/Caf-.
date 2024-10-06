@@ -1,84 +1,79 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body {
-    background:#D7BDE2 ;
+body {        
+    background: #d9c6b2; /* Fondo beige suave */
     font-family: Berlin Sans FB;
 }
-h1{
+h1 {
     text-align: center;
     font-size: 50px;
-    margin: 15px 0px  35px;
-    color:#7D3C98;
+    margin: 15px 0px 35px;
+    color: #fffaf5; /* Marrón oscuro */
     text-shadow: 2px 2px 8px #000000;
 }
-.content{
+.content {
     width: 90%;
     max-width: 910px;
     margin: auto;
     height: 80vh;
     display: flex;
-    justify-content:  center;
+    justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-  
 }
-.table{
-	width: 33%;
-	height: 700px;
-	margin: auto;
-	border: 2px solid #000000;
-	padding: 60px;
-	border-radius: 15px;
-	box-shadow: 0px 0px 4px 0px #000000;
-	text-align: center;
-	flex-wrap: 1;
-	color: black;
-	text-shadow: 3px 3px 5px #f4f6f7;
+.table {
+    width: 33%;
+    height: 740px;
+    margin: auto;
+    border: 2px solid #4b3d30; /* Bordes marrón oscuro */
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 0px #000000;
+    text-align: center;
+    color: #3b2d24; /* Marrón medio */
+    text-shadow: 3px 3px 5px #f4f6f7;
 }
-.table>h2{
+.table > h2 {
     font-size: 25px;
     margin-bottom: 15px;
-
 }
 .table img {
     width: 200px;
     margin-top: 50px;
-    border-bottom:10px; 
-
+    border-bottom: 10px; 
 }
-.table>h3{
+.table > h3 {
     font-size: 25px;
     margin-bottom: 10px;
-
 }
-.table>sup{
+.table > sup {
     font-size: 40px;
 }
-.table>p{
+.table > p {
     font-size: 20px;
 }
-.boton{
+.boton {
     display: inline-block;
     width: 160px;
     padding: 11px;
-    background: #b353ea;
+    background: #6f4c3e; /* Marrón rojizo */
     text-decoration: none;
     color: #ffffff;
     border-radius: 16px;
     text-align: center;
     font-size: 13px;
-    font-weight:500 ;
-    margin: auto ;
+    font-weight: 500;
+    margin: auto;
     margin-top: 13px;
     cursor: pointer;
 }
-.table:hover{
-background-color:#8a33bd ;
-color: #283884;
-transition: 0.5s all;
-transform:scale (1.1);
-cursor:pointer; 
+.table:hover {
+    background-color: #e0c4a0; /* Beige más claro al pasar el ratón */
+    color: #5f4c3a; /* Marrón suave */
+    transition: 0.5s all;
+    transform: scale(1.1);
+    cursor: pointer; 
 }

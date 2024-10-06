@@ -1,62 +1,79 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	}
-	body{
-	background-image: url(../img/ballenas.jpg);
-	background-size: cover;
-	font-family: Century Gothic;
-	}
-	.image-box{
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
-	box-shadow: 10px -1px 24px 0px rgba(248, 245, 245, 0.75);
-	}
-	.box {
-	width: 430px;
-	background: rgba(236, 112, 99, 0.5);
-	margin: 100px auto;
-	border-radius: 5px;
-	padding: 20px;
-	color: black;
-	text-align: center;
-	}
-	.box h1{
-	font-size: 35px;
-	letter-spacing: 4px; /espacio entre lineas/
-	font-weigh: 400;
-	 border-top: 2px;/este sirve para separaras la imagen con las letras/
-	 margin-bottom: 5px;
-	 color: rgba(216, 255, 0, 0.1);
-	 text-shadow: 0 0 3px #1c71e0, 0 0 5px #f2eef5;
-	}
-	.box h2{
-	font-size:35px ;
-	letter-spacing: 6px; /espacio entre lineas/
-	 /font-weigh: 600;/
-	 margin-bottom: 5px;
-	}
-	.box p{
-	text-align: justify;/justificar texto/
-	font-weight: 400px;
-	}
-	.box ul{
-	list-style: none;/quitar estilo de lista/
-	margin-top: 20px;/separacion/
-	}
-	ul li{
-	display: inline-block;/dentro de un bloque para que se orientes las imagenes/
-	}
-	.box ul li a{
-	color: white;
-	font-size: 40px;
-	padding: 8px 10px;
-	display: block;
-	transition: all 0.8s ease-in-out;
-	}
-	.box ul li a:hover{
-	color: #d300e8;
-	transform: scale(1.4);
-	}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../img/nubes.jpg);
+    background-size: cover;
+    font-family: 'Berlin Sans FB', Arial, sans-serif; /* Incluye Arial como fuente de respaldo */
+}
+.image-box {
+    width: 800px; /* Ajusta el ancho de la imagen al mismo tamaño del cuadro rosa */
+    height: 800px; /* Ajusta la altura de la imagen */
+    border-radius: 50%; /* Mantiene los bordes redondeados */
+    box-shadow: 10px -1px 24px 0px rgba(248, 245, 245, 0.75);
+}
+.box {
+    width: 800px; /* Mantener el cuadro rosa con el mismo tamaño */
+    background: rgba(236, 112, 99, 0.5);
+    margin: 100px auto;
+    border-radius: 5px;
+    padding: 40px; /* Aumentar el padding para más espacio */
+    color: black;
+    text-align: center;
+}
+.box h1 {
+    font-size: 80px; /* Aumenta el tamaño de la letra del texto "Hola" */
+    letter-spacing: 4px; /* Espacio entre letras */
+    font-weight: 500;
+    border-top: 2px solid transparent; /* Corregido para un borde funcional */
+    margin-bottom: 20px; /* Espacio más grande debajo del título */
+    color: rgba(216, 255, 0, 0.1);
+    text-shadow: 0 0 3px #1c71e0, 0 0 5px #f2eef5;
+}
+.box h2 {
+    font-size: 60px; /* Tamaño grande para h2 */
+    letter-spacing: 6px; /* Espacio entre letras */
+    margin-bottom: 15px;
+}
+.box p {
+    text-align: justify; /* Justificar texto */
+    font-size: 26px; /* Aumenta el tamaño del texto */
+    font-weight: 400;
+    line-height: 1.5; /* Mejora la legibilidad del párrafo */
+}
+.box ul {
+    list-style: none; /* Quitar estilo de lista */
+    margin-top: 20px; /* Separación */
+}
+ul li {
+    display: inline-block; /* Dentro de un bloque para que se orienten las imágenes */
+}
+.box ul li a {
+    color: #d0d190 ; /* Cambia el color de la letra del botón a amarillo */
+    font-size: 40px; /* Reduce el tamaño de la letra de los enlaces */
+    padding: 10px 20px; /* Ajusta el padding para hacer el botón más grande */
+    background-color: #d0d190 ; /* Fondo blanco fosforescente */
+    border-radius: 8px; /* Bordes redondeados para el botón */
+    display: block;
+    text-decoration: none; /* Elimina la línea negra debajo del botón */
+    transition: all 0.8s ease-in-out;
+}
+.box ul li a:hover {
+    color: #000000;
+    transform: scale(1.2); /* Cambia el tamaño de la escala en el hover */
+    background-color: #d0d190 ; /* Fondo más brillante al hacer hover */
+    text-decoration: none; /* Elimina la línea negra debajo del botón */
+    transition: all 0.8s ease-in-out;
+}
+
+.btn_link {
+    color: #000000;
+    font-size: 30px; /* Tamaño de la letra más pequeño para el botón */
+    background-color: #d0d190 ; /* Fondo blanco fosforescente para el botón de regresar */
+    padding: 10px 20px; /* Tamaño ajustado del botón */
+    border-radius: 8px; /* Bordes redondeados */
+    text-decoration: none; /* Elimina la línea negra debajo del botón */
+    transition: all 0.8s ease-in-out;
+}
