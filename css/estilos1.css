@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-image: url(../img/luces.webp);
+	
+	font-family: 'Georgia', serif;
+	font-size: 22px;
+	color: #3E2723;
+}
+.contenedor-principal {
+	background-color: #F3E5AB;
+	width: 90%;
+	max-width: 1300px;
+	margin: 50px auto;
+	padding: 50px;
+	border-radius: 15px;
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+}
+.logos {
+	font-size: 40px;
+	font-weight: bold;
+	color: #5D4037;
+	text-decoration: none;
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.menu a {
+	font-size: 22px;
+	border-bottom: 2px solid transparent;
+	margin-left: 40px;
+	color: #795548;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+.menu a:hover {
+	border-bottom: 2px solid #A1887F;
+	color: #8D6E63;
+}
+main {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+main.contenedor-imge {
+	width: 30%;
+	margin-right: 50px;
+}
+img {
+	height: 300px;
+	width: 280px;
+	border-radius: 15px;
+	margin-right: 20px;
+}
+.contenedor-texto .titulo {
+	font-size: 45px;
+	font-weight: normal;
+	margin-bottom: 40px;
+	color: #4E342E;
+}
+.contenedor-texto p {
+	margin-bottom: 40px;
+	line-height: 35px;
+	font-size: 20px;
+	color: #6D4C41;
+}
+.contenedor-texto .cafe {
+	font-weight: bold;
+	color: #3E2723;
+	font-style: normal;
+}
+.btn_link {
+	display: inline-block;
+	padding: 20px 40px;
+	border-radius: 100px;
+	background: #8D6E63;
+	margin-right: 15px;
+	text-decoration: none;
+	color: #FFF;
+	transition: all 0.5s ease;
+}
+.btn_link:hover {
+	color: #FFF;
+	background: #5D4037;
+}
